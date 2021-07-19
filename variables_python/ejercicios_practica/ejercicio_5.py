@@ -25,3 +25,9 @@ palab1_3lts = palabra_1[0]+palabra_1[1]+palabra_1[2]
 palab2_2lts = palabra_2[0]+palabra_2[1]
 suma = palab1_3lts + palab2_2lts
 print(suma)
+
+#------------También puedes acceder a los carácteres de la siguiente manera------
+palab1_3lts = palabra_1[:3]
+palab2_2lts = palabra_2[:2]
+suma = palab1_3lts + palab2_2lts
+print(suma)
